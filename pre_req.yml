@@ -1,0 +1,9 @@
+---
+
+- name: instalando o java
+  yum:
+   name: "{{ item }}"
+   state: present
+  with_items:
+    - java-1.8.0
+    - http://repo.rundeck.org/latest.rpm

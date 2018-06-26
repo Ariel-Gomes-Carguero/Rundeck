@@ -1,0 +1,7 @@
+---
+
+- name: instalando o rundeck
+  yum:
+   name: rundeck
+   state: present
+   
